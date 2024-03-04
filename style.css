@@ -41,34 +41,111 @@ body .Grid-Container{
     grid-area: header;
     background-color: black;;
     color: white;
+    text-align: center;
 }
+.item1:hover{
+    background : white;
+    transition: 2s;
+    color: black;
+    border-color:black ;
+    transform:rotate(36deg);
+    text-align: end;
+  
+   
+}
+
 .item6{
     grid-area: content;
     background-color:purple;
     color: white;
+    text-align: center;
 }
+.item6:hover{
+    background : white;
+    transition: 2s;
+    color: purple;
+    border-color:black ;
+    transform:rotate(360deg);
+   
+}
+
 .item2{
     grid-area: menu;
     background-color: rgb(189, 16, 16);
     color: white;
+    text-align: center;
 }
+.item2:hover{
+    background : white;
+    transition: 2s;
+    color:  rgb(189, 16, 16);
+    border-color:black ;
+    transform:rotate(-36deg);
+    text-align:start;
+   
+}
+
 .item3{
     grid-area: box1;
     background-color: green;
     color: white;
+
+
 }
+.item3:hover{
+    background : white;
+    transition: 2s;
+    color: green;
+    border-color:black ;
+    transform:rotate(36deg);
+    text-align: end;
+   
+}
+
 .item4{
     grid-area: box2;
     background-color: rgb(141, 158, 109);
     color: white;
+    text-align: end;
 }
+.item4:hover{
+    background : white;
+    transition: 2s;
+    color: rgb(141, 158, 109);
+    border-color:black ;
+    transform:rotate(-36deg);
+    text-align: start;
+   
+}
+
 .item5{
     grid-area: sidebar;
     background-color: navy;
     color: white;
+    text-align: center;
 }
+.item5:hover{
+    background : white;
+    transition: 2s;
+    color: navy;
+    border-color:black ;
+    transform:rotate(36deg);
+    text-align:center;
+   
+}
+
 .item7{
     grid-area: footer;
     background-color:rgb(170, 107, 107);
     color: white;
+    text-align:center ;
+}
+.item7:hover{
+    background : white;
+    transition: 2s;
+    color: rgb(170, 107, 107);
+    border-color:black ;
+    transform:scale(1.5);
+    text-align: center;
+   
 }
